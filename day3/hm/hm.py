@@ -23,6 +23,8 @@ places = [('Nashua',32),("Boston",12),("Los Angeles",44),("Miami",29)]
 mappeded = list(map(lambda temp: (9/5)*temp[1] + 32 , places))
 print(mappeded)
 
+# ** another option with city names
+converted_places =  list(map(lambda x: (x[0], x[1] *(9/5) + 32) , places ))
 
 #excercise # 4
 def fib(n):
